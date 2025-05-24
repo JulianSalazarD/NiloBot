@@ -73,7 +73,7 @@ DATABASE_URL="mysql+mysqlconnector://tu_usuario:tu_password@tu_host:3306/nombre_
 
 **Importante:** Asegúrate de reemplazar los valores placeholder con tus credenciales reales.
 
-## 5. Preparar tu Base de Datos Maria
+## 5. Preparar tu Base de Datos
 
 Asegúrate de que tu base de datos esté funcionando y accesible desde tu_host:3306 (o el puerto que uses). La estructura de las tablas (esquema) en tu base de datos es crucial, ya que el chatbot la usará para generar consultas SQL. NiloBot introspectará automáticamente todas las tablas disponibles en la nombre_de_tu_db especificada.
 
